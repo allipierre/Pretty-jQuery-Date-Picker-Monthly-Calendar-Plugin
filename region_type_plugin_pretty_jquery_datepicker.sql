@@ -25,13 +25,13 @@ begin
 null;
 end;
 /
-prompt --application/shared_components/plugins/region_type/pierreallidatepicker
+prompt --application/shared_components/plugins/region_type/pretty_jquery_datepicker
 begin
 wwv_flow_api.create_plugin(
- p_id=>wwv_flow_api.id(20317232408620454825)
+ p_id=>wwv_flow_api.id(20320405585371915100)
 ,p_plugin_type=>'REGION TYPE'
-,p_name=>'PIERREALLIDATEPICKER'
-,p_display_name=>'pierreallidatepicker'
+,p_name=>'PRETTY.JQUERY.DATEPICKER'
+,p_display_name=>'Pretty jQuery Datepicker'
 ,p_supported_ui_types=>'DESKTOP'
 ,p_javascript_file_urls=>wwv_flow_string.join(wwv_flow_t_varchar2(
 '#PLUGIN_FILES#jquery.datepicker.js',
@@ -75,8 +75,9 @@ wwv_flow_api.create_plugin(
 ,p_render_function=>'render_region'
 ,p_substitute_attributes=>true
 ,p_subscribe_plugin_settings=>true
+,p_help_text=>'Pretty jQuery Date Picker & Monthly Calendar Plugin'
 ,p_version_identifier=>'1.0'
-,p_files_version=>5
+,p_files_version=>4
 );
 end;
 /
@@ -403,8 +404,8 @@ end;
 /
 begin
 wwv_flow_api.create_plugin_file(
- p_id=>wwv_flow_api.id(20317291201588846651)
-,p_plugin_id=>wwv_flow_api.id(20317232408620454825)
+ p_id=>wwv_flow_api.id(20320446003659306586)
+,p_plugin_id=>wwv_flow_api.id(20320405585371915100)
 ,p_file_name=>'jquery.datepicker.js'
 ,p_mime_type=>'text/javascript'
 ,p_file_charset=>'utf-8'
@@ -461,8 +462,8 @@ end;
 /
 begin
 wwv_flow_api.create_plugin_file(
- p_id=>wwv_flow_api.id(20317292380794847803)
-,p_plugin_id=>wwv_flow_api.id(20317232408620454825)
+ p_id=>wwv_flow_api.id(20320467673136925111)
+,p_plugin_id=>wwv_flow_api.id(20320405585371915100)
 ,p_file_name=>'jquery.datepicker.css'
 ,p_mime_type=>'text/css'
 ,p_file_charset=>'utf-8'
@@ -488,8 +489,8 @@ end;
 /
 begin
 wwv_flow_api.create_plugin_file(
- p_id=>wwv_flow_api.id(20318271850304616364)
-,p_plugin_id=>wwv_flow_api.id(20317232408620454825)
+ p_id=>wwv_flow_api.id(20320469837151926049)
+,p_plugin_id=>wwv_flow_api.id(20320405585371915100)
 ,p_file_name=>'prettydatepicker.js'
 ,p_mime_type=>'text/javascript'
 ,p_file_charset=>'utf-8'
