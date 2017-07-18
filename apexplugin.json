@@ -12,23 +12,22 @@
   "author": {
     "name": "Alli Pierre Yotti",
     "email": "allipierre@outlook.com",
-    "url": "https://danielhochleitner.de",
-    "twitter": "Dani3lSun",
-    "donationUrl": "https://www.paypal.me/DanielHochleitnerIT/3"
+    "url": "https://apex.oracle.com/pls/apex/f?p=1373:1",
+    "twitter": "pierre_yotti"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dani3lSun/apex-plugin-builtwithlove.git"
+    "url": "https://github.com/allipierre/Pretty-jQuery-Date-Picker-Monthly-Calendar-Plugin.git"
   },
   "oracle": {
     "versions": ["11.2.0.1", "12.1.0.1", "12.2.0.1"],
     "apex": {
       "versions": ["5.0.0", "5.1.0"],
       "plugin": {
-        "internalName": "ORG.ORCLAPEX.BUILTWITHLOVE",
+        "internalName": "PIERREALLIDATEPICKER",
         "type": "region",
-        "demo": "http://joelkallman.blogspot.de/2017/07/built-with-using-oracle-application.html",
-        "previewImage": "https://raw.githubusercontent.com/Dani3lSun/apex-plugin-builtwithlove/master/preview.gif"
+        "demo": "https://apex.oracle.com/pls/apex/f?p=118857:1",
+        "previewImage": "https://github.com/allipierre/Pretty-jQuery-Date-Picker-Monthly-Calendar-Plugin/blob/master/Pretty.png"
       }
     }
   }
